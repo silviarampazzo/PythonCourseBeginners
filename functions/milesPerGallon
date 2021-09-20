@@ -1,0 +1,11 @@
+from random import randint
+
+fuel = randint(10, 25)
+miles = randint(200, 400)
+
+def mpg(m, g):
+    return m // g
+
+print("The car's fuel tank can hold " + str(fuel) + " gallons")
+print("The car can travel for " + str(miles) + " miles with a full tank")
+print("Car travels " + str(mpg(miles, fuel) )+ " miles per gallon")
