@@ -1,0 +1,13 @@
+mixed_case = "A Song of Ice and Fire"
+title_case = mixed_case.title()
+words = mixed_case.split()
+print("mixed_case is upper: ", mixed_case.isupper())
+print("mixed_case is lower: ", mixed_case.islower())
+print("mixed_case all upper: ", mixed_case.upper())
+print("mixed_case all lower: ", mixed_case.lower())
+print("mixed_case is title: ", mixed_case.istitle())
+print("title_case is: ", title_case)
+print("mixed_case starts with A: ", mixed_case.startswith("A"))
+print("mixed_case ends with e: ", mixed_case.endswith("e"))
+print("words: ", words)
+print("join of words is all letters: ", "".join(words).isalpha())
